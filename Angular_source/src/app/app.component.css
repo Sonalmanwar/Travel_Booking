@@ -1,0 +1,5 @@
+.nav-link.btn:hover {
+    transform: scale(1.1); /* Scale the button up by 10% on hover */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add a box shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Apply transition effect */
+  }

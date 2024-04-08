@@ -1,0 +1,44 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+
+    <a class="navbar-brand" href="#">
+      <img src="../assets/logo.jpg" alt="Your Logo" width="40" height="40">
+    </a>
+    <!-- Brand/logo -->
+    <a class="nav-link btn btn-outline-success" href="#"><strong>JOURNEY JUNCTION</strong>
+    </a>
+
+    <!-- Toggler/collapsible Button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-primary" routerLink="/" routerLinkActive="active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-primary" routerLink="/about" routerLinkActive="active">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-primary" routerLink="/contact" routerLinkActive="active">Contact Us</a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-primary" routerLink="/login" routerLinkActive="active">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-success" routerLink="/register" routerLinkActive="active">Register</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-4">
+  <router-outlet></router-outlet>
+</div>

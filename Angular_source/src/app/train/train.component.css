@@ -1,0 +1,72 @@
+/* train.component.css */
+.modal {
+    display: none; /* Hide the modal by default */
+  }
+  .modal.show {
+    display: block; /* Show the modal when it has the "show" class */
+  }
+  .card-body{
+    height: 300px;
+  }
+
+  .card-img-top {
+    margin-top: 10px;
+    width: 20px; /* Set the width of the image */
+    height: 20px; /* Set the height of the image */
+  }
+
+  /* train.component.css */
+
+.card-img-left {
+    float: left; /* Float the image to the left */
+    margin-right: 10px; /* Add some space between the image and the text */
+    width: 50px; /* Set the width of the image */
+    height: 50px; /* Set the height of the image */
+  }
+/* Modal */
+.modal {
+  display: none; /* Hide the modal by default */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.3s; /* Add transition effect */
+}
+
+/* Modal Header */
+.modal-header {
+  padding: 10px 20px;
+  background-color: #5bc0de; /* Header background color */
+  color: #fff; /* Header text color */
+}
+
+/* Close button */
+.close {
+  color: #1c388c; /* Close button text color */
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  transition: all 0.3s; /* Add transition effect */
+  margin-left: 200px;
+}
+
+.close:hover,
+.close:focus {
+  color: #000; /* Close button hover color */
+  text-decoration: none;
+  cursor: pointer;
+}
